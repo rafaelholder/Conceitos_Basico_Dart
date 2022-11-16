@@ -5,9 +5,13 @@ class Usuario {
   //? Construtor default da classe
   Usuario({required this.nome, required this.idade});
 
+  // COnstrutor com lista de inicialização, define parametros antes de
+  // iniciar o escopo do construtor
   Usuario.fromJson(Map<String, dynamic> json)
       : nome = json['nome'],
-        idade = json['idade'] {}
+        idade = json['idade'] {
+    // CONFIGURAÇÕES INICIAIS
+  }
 
   /*
   Usuario.fromJson(Map<String, dynamic> json) {
