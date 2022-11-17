@@ -1,9 +1,9 @@
+// ignore_for_file: unused_field
+
 /*
   DateTime é uma clsse com construtores para definir segundos, hora, dias e anos
   Duration é a classe usada para definir um determinado tempo.
 */
-
-import 'dart:math';
 
 String tempoAgora() {
   DateTime tempo = DateTime.now();
